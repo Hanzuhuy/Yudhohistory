@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yudho Prabowo — Portofolio</title>
+<meta name="description" content="Portofolio Yudho Prabowo: C++, fotografi, desain grafis, editing video, dan game developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="prog" aria-hidden="true"></div>
+<div class="blob a"></div><div class="blob b"></div>
+
+<nav>
+  <div class="container nav-in">
+    <a href="#home" class="logo">yudho<span>.dev</span></a>
+    <div class="links" id="links">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#prestasi">Prestasi</a>
+      <a href="#journey">Perjalanan</a>
+      <a href="#contact">Kontak</a>
+      <button class="lang" id="lang" aria-label="Ganti bahasa">EN</button>
+      <button class="theme" id="theme" aria-label="Ganti tema">🌙</button>
+    </div>
+    <button class="menu" id="menu" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="player mono"><span class="dot"></span> PLAYER 01 · TERBUKA UNTUK MAGANG &amp; KOLABORASI</div>
+      <h1 class="name"><span class="fill">YUDHO</span><span class="fill">PRABOWO</span></h1>
+      <div class="typed mono" id="typed"></div>
+      <p class="lead">Mahasiswa Teknik Informatika yang memadukan pemrograman C++ dengan sisi kreatif: fotografi, desain grafis, dan editing video, lalu mewujudkannya dalam pengembangan game.</p>
+      <div class="btns">
+        <a href="#portofolio" class="btn primary">Lihat Portofolio</a>
+        <a href="#prestasi" class="btn ghost">Prestasi</a>
+        <a href="#contact" class="btn ghost">Hubungi Saya</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Hanzuhuy" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/yudho-prabowo" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="https://instagram.com/yudhopr._" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="mailto:yudhoprabowo618@gmail.com" aria-label="Email">@</a>
+      </div>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="hud mono">
+        <div class="hud-row"><b>PLAYER 01</b><span>XP</span></div>
+        <div class="xp"><i></i></div>
+      </div>
+
+      <div class="viewfinder mono">
+        <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+        <div class="vf-top"><span class="rec"><i></i>REC</span><span>4K · 60FPS</span></div>
+        <div class="vf-core"><div class="focus"></div><div class="avatar">YP</div></div>
+        <div class="vf-bottom"><span>f/1.8</span><span>1/250</span><span>ISO 100</span></div>
+      </div>
+
+      <div class="terminal">
+        <div class="t-bar mono"><i></i><i></i><i></i><span>main.cpp</span></div>
+<pre><span class="k">#include</span> <span class="s">&lt;game&gt;</span>
+<span class="k">int</span> <span class="f">main</span>() {
+  Dev yudho(<span class="s">"YP"</span>);
+  yudho.<span class="f">code</span>();
+  yudho.<span class="f">shoot</span>();
+  yudho.<span class="f">design</span>();
+  yudho.<span class="f">edit</span>();
+  <span class="k">return</span> 0;
+}</pre>
+      </div>
+
+      <div class="tlbox mono">
+        <div class="tl-head"><span>TIMELINE</span><span>00:00:12:08</span></div>
+        <div class="tl-track"><i></i><i></i><i></i><i></i><b class="playhead"></b></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container about-grid">
+    <div class="reveal about">
+      <div class="eyebrow">Tentang Saya</div>
+      <h2 class="title">Menggabungkan logika dan kreativitas</h2>
+      <p>Saya sedang menempuh S1 Teknik Informatika dengan minat pada pemrograman C++, pengembangan game, dan arsitektur komputer. Saya suka memecah masalah besar menjadi langkah kecil yang bisa dibangun dan diuji.</p>
+      <p>Di luar kuliah, saya memotret, membuat desain grafis, dan mengedit video. Ketiganya membantu saya membuat game dengan visual, suara, dan cerita yang lebih hidup.</p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><b data-count="10">0</b><span>Proyek selesai</span></div>
+      <div class="stat"><b data-count="5">0</b><span>Bahasa &amp; tools</span></div>
+      <div class="stat"><b data-count="3">0</b><span>Sertifikat</span></div>
+      <div class="stat"><b data-count="100">0</b><span>% semangat belajar</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Keahlian</div>
+      <h2 class="title">Yang saya kuasai</h2>
+      <p class="sub">Perpaduan kemampuan teknis dan kreatif yang saya tekuni.</p>
+    </div>
+    <div class="skill-grid">
+      <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg></div><h3>C++</h3><p>Pemrograman berbasis logika dan algoritma, dari struktur data hingga OOP.</p><div class="tags"><span class="tag">Algoritma</span><span class="tag">Struktur Data</span><span class="tag">OOP</span></div><a class="card-link" href="#portofolio" data-cat="game">Lihat karya →</a></div>
+      <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div><h3>Fotografi</h3><p>Menangkap momen lewat komposisi, cahaya, dan pengolahan foto yang rapi.</p><div class="tags"><span class="tag">Komposisi</span><span class="tag">Lighting</span><span class="tag">Retouching</span></div><a class="card-link" href="#portofolio" data-cat="foto">Lihat karya →</a></div>
+      <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div><h3>Desain Grafis</h3><p>Visual yang jelas dan menarik untuk poster, logo, dan media sosial.</p><div class="tags"><span class="tag">Poster</span><span class="tag">Logo</span><span class="tag">Branding</span></div><a class="card-link" href="#portofolio" data-cat="desain">Lihat karya →</a></div>
+      <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2.5"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></div><h3>Editing Video</h3><p>Menyusun cerita lewat potongan gambar, transisi, warna, dan audio.</p><div class="tags"><span class="tag">Cutting</span><span class="tag">Color Grading</span><span class="tag">Motion</span></div><a class="card-link" href="#portofolio" data-cat="video">Lihat karya →</a></div>
+      <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="5"/><line x1="7" y1="10" x2="7" y2="14"/><line x1="5" y1="12" x2="9" y2="12"/><circle cx="15.5" cy="11" r=".8" fill="#fff"/><circle cx="18" cy="13" r=".8" fill="#fff"/></svg></div><h3>Game Developer</h3><p>Merancang dan membangun game, dari mekanik, level, hingga visualnya.</p><div class="tags"><span class="tag">Game Design</span><span class="tag">Gameplay</span><span class="tag">Prototyping</span></div><a class="card-link" href="#portofolio" data-cat="game">Lihat karya →</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="portofolio">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Portofolio</div>
+      <h2 class="title">Hasil karya saya</h2>
+      <p class="sub">Kumpulan foto, desain, video, dan game yang pernah saya buat. Klik foto untuk melihat lebih besar.</p>
+    </div>
+    <div class="tabs reveal" id="pTabs"></div>
+    <div class="gallery" id="gallery"></div>
+    <div class="gal-actions reveal">
+      <label class="btn ghost" for="addPhoto">+ Tambah foto (pratinjau)</label>
+      <input type="file" id="addPhoto" accept="image/*" multiple hidden>
+      <span class="hint">Pratinjau hanya tampil di browsermu dan hilang saat halaman dimuat ulang.</span>
+    </div>
+  </div>
+</section>
+
+<section id="prestasi">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Prestasi</div>
+      <h2 class="title">Jejak lomba &amp; penghargaan</h2>
+      <p class="sub">Pencapaian dari berbagai bidang yang saya ikuti, dari akademik sampai kreatif.</p>
+    </div>
+    <div class="p-stats reveal" id="pStats"></div>
+    <div class="tabs reveal" id="aTabs"></div>
+    <div class="ach-grid" id="ach"></div>
+  </div>
+</section>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Pratinjau foto">
+  <button class="x" aria-label="Tutup">✕</button>
+  <button class="pv" aria-label="Sebelumnya">‹</button>
+  <button class="nx" aria-label="Berikutnya">›</button>
+  <figure><img alt=""><div class="lb-cap"></div></figure>
+</div>
+
+<section id="journey">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Perjalanan</div>
+      <h2 class="title">Pendidikan &amp; pengalaman</h2>
+      <p class="sub">Langkah-langkah yang membentuk saya sampai hari ini.</p>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal"><div class="t-date">Sekarang</div><h3>S1 Teknik Informatika</h3><p>Mendalami pemrograman, basis data, jaringan, serta organisasi dan arsitektur komputer.</p></div>
+      <div class="t-item reveal"><div class="t-date">Tahun 2025</div><h3>Anggota Organisasi / Komunitas</h3><p>Terlibat dalam kegiatan teknologi dan belajar bekerja dalam tim.</p></div>
+      <div class="t-item reveal"><div class="t-date">Lulus SMA</div><h3>SMAN 1 Way Jepara — Jurusan IPA</h3><p>Membangun dasar berpikir analitis lewat matematika dan sains.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-box reveal">
+      <h2>Mari berkolaborasi</h2>
+      <p>Punya proyek, peluang magang, atau sekadar ingin berdiskusi? Kirim pesan, saya senang mengobrol.</p>
+      <a class="btn" href="mailto:yudhoprabowo618@gmail.com">yudhoprabowo618@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container">© <span id="year"></span> Yudho Prabowo. Dibuat dengan HTML, CSS &amp; JavaScript.</div></footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
